@@ -1,0 +1,29 @@
+.nav {
+    width: 90%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+
+    h1 {
+        font-weight: bold;
+    }
+
+    .lib-music {
+        border: none;
+        outline: 2px solid #333;
+        padding: 10px 20px;
+        background: transparent;
+        transition: all 0.5s ease-in-out;
+        
+        &:hover {
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        svg {
+            margin-left: 4px;
+        }
+    }
+}

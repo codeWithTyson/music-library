@@ -1,0 +1,40 @@
+.song-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+
+  img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  h1 {
+    padding: 1rem 10px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  h3 {
+    margin-top: -5px;
+    color: #fff;
+    font-size: 13px;
+  }
+}
+
+.rotate {
+  animation: rotation 7s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
